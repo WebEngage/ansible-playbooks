@@ -3,4 +3,4 @@
   vars_files:
     - 'example-vars.yml'
   roles:
-    - "{{role_name|default('nginx')}}"
+    - "{{role_name|default('ansible-nginx')}}"
